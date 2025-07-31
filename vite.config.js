@@ -2,6 +2,6 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: '/mon-portfolio/', // ← remplace par le nom de ton repo GitHub
+  base: '/portfolio-vercel/', // ← remplace par le nom de ton repo GitHub
   plugins: [react()],
 });
